@@ -1,0 +1,11 @@
+.valotech{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.valotech-heading h3{
+    color: #1f3edb;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
