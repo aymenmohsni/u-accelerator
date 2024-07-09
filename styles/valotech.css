@@ -9,3 +9,18 @@
     font-size: 1.3rem;
     font-weight: 500;
 }
+
+.card-footer > a{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+.card-footer > a:hover{
+    text-decoration: underline;
+}

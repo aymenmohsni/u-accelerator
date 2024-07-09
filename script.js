@@ -69,7 +69,7 @@ if (formContact) {
       if (!name.trim() || !email.trim()) {
          Swal.fire({
             title: "Error",
-            text: "Mohon isi form dengan benar!",
+            text: "Please fill in the form correctly!",
             icon: "error",
             button: "OK",
             confirmButtonColor: "#2447F9",
@@ -79,7 +79,7 @@ if (formContact) {
    
       Swal.fire({
          title: "Redirect Warning",
-         text: "Anda akan dialihkan ke aplikasi email anda!",
+         text: "You will be redirected to your email application!",
          icon: "info",
          button: "OK",
          showCancelButton: true,
@@ -88,7 +88,7 @@ if (formContact) {
          cancelButtonColor: "#34364A",
       }).then((result) => {
          if (result.isConfirmed) {
-            window.location.href = `mailto:createon@gmail.com?subject=Contact%20from%20${name}&body=${message}`;
+            window.location.href = `mailto:aymen.mohsni97@gmail.com?subject=Contact%20from%20${name}&body=${message}`;
          }
       });
    

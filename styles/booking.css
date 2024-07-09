@@ -57,4 +57,10 @@
     color: #34364ada;
     user-select: none;
 }
-/* Akhir dari bookings section */
+
+@media(max-width:800px){
+    .bookings-card-wrap{
+        flex-direction: column;
+    }
+
+}
