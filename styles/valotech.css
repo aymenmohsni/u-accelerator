@@ -4,12 +4,20 @@
     flex-direction: column;
     justify-content: center;
 }
+
 .valotech-heading h3{
     color: #1f3edb;
     font-size: 1.3rem;
     font-weight: 500;
 }
-
+h2.hero-heading-valo {
+    font-size: 3rem;
+    color: #2447F9;
+}
+.hero-image-valotech > img{
+    width: 433px;
+    margin-top: 10%;
+  }
 .card-footer > a{
     position: absolute;
     top: 65%;
@@ -23,4 +31,44 @@
 }
 .card-footer > a:hover{
     text-decoration: underline;
+}
+
+/* profiles */
+.profiles-card-wrap{
+    margin: 30px 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+.profile-card-wrapper{
+    width: 22%;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.164);
+    transition: .3s all !important;
+}
+.profile-card-wrapper:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.200);
+}
+.profile-card-wrapper img{
+    width: 60px;
+}
+.profile-card-wrapper h3{
+    margin: 30px 0 10px;
+    font-size: 1.3rem;
+    text-align: center;
+    user-select: none;
+}
+.profile-card-wrapper p{
+    text-align: center;
+    font-size: .9rem;
+    color: #34364ada;
+    user-select: none;
 }

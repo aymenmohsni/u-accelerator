@@ -40,10 +40,14 @@
   display: block;
 }
 
-.container {
-  margin-top: 20px;
+.container-content {
+  margin-top: 1px;
   overflow: hidden;
+  width:80%;
+    margin: 0 auto 30px;
+    background-color: white;
 }
+
 
 /* Style the buttons */
 .btn {
@@ -64,7 +68,7 @@
 }
 
 .btn.active {
-  background-color: #666;
+  background-color: #2447f9;
   color: white;
 }
   </style>
@@ -79,9 +83,9 @@
       <ul class="nav-links">
         <li><a class="nav-link" href="/index.html">Home</a></li>
         <li><a class="nav-link" href="about-us.html">About us</a></li>
-        <li><a class="nav-link" href="">ValoTech Lab</a></li>
+        <li><a class="nav-link" href="valotech.html">ValoTech Lab</a></li>
         <li><a class="nav-link" href="#contact">Programs</a></li>
-        <li><a class="nav-link" href="courses.html">Services</a></li>
+        <li><a class="nav-link" href="services.html">Services</a></li>
         <!-- <li>
           <div class="btn-utility">
             <a href="html/login.html">Log in</a>
@@ -119,19 +123,106 @@
                 <button class="btn" onclick="filterSelection('TRAININGS')"> TRAININGS</button>
               </div>
               
-              <div class="container">
+              <div class="container-content">
                 
                 <div class="filterDiv ACCELERATION">
-                    content ACCELERATION
+                  <h2>ACCELERATION SERVICES</h2>
+
+                  <p>Innovative strategies, marketing, and project management.</p>
+                    <button type="button" class="collapsible">INNOVATION STRATEGIES &#8595;</button>
+                    <div class="content">
+                      <p> INNOVATION APPROACH: INTERNAL, EXTERNAL ANALYSIS, CREATIVITY</p>
+                      <ul>
+                        <li>Identify new markets or areas of application for an innovation.</li> 
+                        <li>Propose new products / services to existing markets</li> 
+                        <li>Qualify a portfolio of ideas.</li> 
+                        <li>Diversify into new markets, with new products.</li> 
+                      </ul>
+                  
+                    </div>
+                    <button type="button" class="collapsible">MARKETING OF INNOVATION  &#8595;</button>
+                    <div class="content">
+                      <p>APPROCHE INNOVATION PME : ÉCOUTE CLIENTS ET USAGES.</p>
+                      <ul>
+                        <li>Detect new needs with customers</li>
+                        <li>Work on listening to customers to test, qualify, validate an idea, a concept, an offer</li>
+                        <li>Define the marketing of an innovative offer (segmentation, targets, positioning, com)</li>
+                      </ul>
+                    </div>
+                    <button type="button" class="collapsible">MANAGEMENT OF INNOVATIVE PROJECTS  &#8595;</button>
+                    <div class="content">
+                      <p>APPROCHE INNOVATION PME : RÉFÉRENTIEL DE GESTION DE PROJETS INNOVANTS</p>
+                      <ul>
+                        <li>Identify the risks and critical points of an innovative project and secure its progress</li>
+                        <li>Be guided on the various stages of an ambitious innovative project and make its success more reliable</li>
+                        <li>Build skills in the management of innovative projects</li>
+                      </ul>
+                    </div>
                 </div>
                 <div class="filterDiv BUSINESS">
-                    content BUSINESS
+                  <h2>BUSINESS SERVICES</h2>
+
+                  <p>Startup creation, partner finding, technology commercialization, and project development.</p>
+                    <button type="button" class="collapsible">CREATE A STARTUP &#8595;</button>
+                    <div class="content">
+                      
+                      <ul>
+                        <li>Opportunity.</li> 
+                        <li>Protection (Intellectual property)</li> 
+                        <li>Business Case and Commercialization Plan.</li> 
+                        <li>Building the Team and Securing Capital .</li> 
+                        <li>Executing the Plan and Developing the Product</li>
+                      </ul>
+                  
+                    </div>
+                    <button type="button" class="collapsible">FIND A PARTNER &#8595;</button>
+                    <div class="content">
+                      <p>WE SEARCH FOR THE BEST PARTNERS FOR THE DEVELOPMENT OR EXPLOITATION OF A TECHNOLOGY.</p>
+                      <p>U-Accelerator searches for the best ITC partner for the exploitation of a technology. Whether it is a startup, a small business, or a large multinational group, the first step after signing a confidentiality agreement is to introduce the technology to the industrial partners by targeted approaches or while attending trade shows.</p>
+                    </div>
+                    <button type="button" class="collapsible">COMMERCIALIZE TECHNOLOGY &#8595;</button>
+                    <div class="content">
+                      <p></p>
+                      <ul>
+                        <li>The market</li>
+                        <li>Protection</li>
+                        <li>Commercialization strategies</li>
+                        <li>Establishing and Executing the commercialization plan</li>
+                      </ul>
+                    </div>
+                    <button type="button" class="collapsible">DEVELOP PROJECT  &#8595;</button>
+                    <div class="content">
+                      <p></p>
+                      <ul>
+                        <li>Scan and analyze market</li>
+                        <li>Track and monitor the market trends </li>
+                        <li>Understand the functional characteristics</li>
+                        <li>Identify and evaluate promising sources of advanced technology</li>
+                        <li>Identify and analyze the ecosystem to determine the players</li>
+                        <li>Develop collaboration projects.</li>
+                        <li>Develop Minimum Viable product</li>
+                      </ul>
+                    </div>
                 </div>
                 <div class="filterDiv INNOVATION">
-                    content INNOVATION
+                  <h2>INNOVATION SERVICES</h2>
+                  <p>Comprehensive support for your innovation processes. </p>
+                  <ul>
+                    <li>PROJECT PLANNING</li>
+                    <li>PRODUCT MATURITY</li>
+                    <li>INTELLECTUAL PROPERTY STRATEGY</li>
+                    <li>BUSINESS DEVELOPMENT</li>
+                  </ul>
                 </div>
                 <div class="filterDiv TRAININGS">
-                    content TRAININGS
+                  <h2>TRAININGS</h2>
+                    <p>Enhance your skills with targeted training programs.</p>
+                    <ul>
+                      <li>DESIGN THINKING FOR BUSINESS INNOVATION</li>
+                      <li>CREATIVITY MANAGEMENT</li>
+                      <li>MARKETING OF MANAGEMENT</li>
+                      <li>INNOVATION STRATEGIES</li>
+                    </ul>
                 </div>
               </div>
         </section>
@@ -176,58 +267,11 @@
             </ul>
           </div>
         </div>
-        <p>
-          Copyright &copy; 2021-2024 CreateOn , Made with
-          <i class="fas fa-heart"></i> by
-          <a href="https://instagram.com/hafidzrdwn" target="_blank"
-            >@hafidzrdwn</a
-          >
+        <p>Copyright &copy; 2024 U-Accelerator  
+          <!-- <a href="https://instagram.com/hafidzrdwn" target="_blank">@hafidzrdwn</a> -->
         </p>
       </footer>
     </body>
-    <script>
-        filterSelection("all")
-        function filterSelection(c) {
-          var x, i;
-          x = document.getElementsByClassName("filterDiv");
-          for (i = 0; i < x.length; i++) {
-            w3RemoveClass(x[i], "show");
-            if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-          }
-        }
-        
-        function w3AddClass(element, name) {
-          var i, arr1, arr2;
-          arr1 = element.className.split(" ");
-          arr2 = name.split(" ");
-          for (i = 0; i < arr2.length; i++) {
-            if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
-          }
-        }
-        
-        function w3RemoveClass(element, name) {
-          var i, arr1, arr2;
-          arr1 = element.className.split(" ");
-          arr2 = name.split(" ");
-          for (i = 0; i < arr2.length; i++) {
-            while (arr1.indexOf(arr2[i]) > -1) {
-              arr1.splice(arr1.indexOf(arr2[i]), 1);     
-            }
-          }
-          element.className = arr1.join(" ");
-        }
-        
-        // Add active class to the current button (highlight it)
-        var btnContainer = document.getElementById("myBtnContainer");
-        var btns = btnContainer.getElementsByClassName("btn");
-        for (var i = 0; i < btns.length; i++) {
-          btns[i].addEventListener("click", function(){
-            var current = document.getElementsByClassName("active");
-            current[0].className = current[0].className.replace(" active", "");
-            this.className += " active";
-          });
-        }
-        </script>
         
     <script
       src="https://kit.fontawesome.com/ba150134be.js"

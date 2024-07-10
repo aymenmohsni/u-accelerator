@@ -102,29 +102,7 @@
     width: 100%;
 
 } */
-/* collapsible css */
-.collapsible {
-    background-color: #777;
-    color: white;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-  }
-  .active, .collapsible:hover {
-    background-color: #555;
-  }
-  
-  .content {
-    padding: 0;
-    display: none;
-    overflow: hidden;
-    background-color: #f1f1f1;
-  }
-  /* collapsible css */
+
 .course-description{
     display: flex;
     flex-direction: column;
