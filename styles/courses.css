@@ -60,7 +60,7 @@
     color: black;
     display: inline-block;
     border-radius: 25px;
-    width: 140px;
+    width: 240px;
     height: 45px;
     margin-right: 15px;
     line-height: 45px;
@@ -85,11 +85,10 @@
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.courses-card-wrapper .course-card{
-    cursor: pointer;
+.courses-card-wrapper{
+    
     background-color: #f5f6ff;
-    width: 295px;
-    height: 475px;
+    
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -99,6 +98,33 @@
     transition: all .3s;
     position: relative;
 }
+/* .course-card{
+    width: 100%;
+
+} */
+/* collapsible css */
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  .active, .collapsible:hover {
+    background-color: #555;
+  }
+  
+  .content {
+    padding: 0;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+  /* collapsible css */
 .course-description{
     display: flex;
     flex-direction: column;
@@ -106,11 +132,17 @@
 }
 .course-description h1{
     font-size: 1.3rem;
-    max-width: 95%;
-    text-align: left;  
-    user-select: none;
+    text-align: left;
+    /* user-select: none; */
 }
-.course-card-footer{
+.course-description pre{
+    text-align: left;
+}
+.course-description ul li{
+    text-align: left;
+    
+}
+/* .course-card-footer{
     background-color: #2447f9;
     padding: 20px;
     color: white;
@@ -118,12 +150,12 @@
     bottom: 0;
     right: 0;
     left: 0;
-}
+} */
 
 /* Responsive Breakpoint */
 @media screen and (max-width: 768px){
     .courses {
-        padding: 20px 0 70px;;
+        padding: 20px 0 70px;
     }
     .courses .courses-heading p{
         max-width: 60%;
