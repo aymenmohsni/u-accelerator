@@ -58,6 +58,7 @@
         width: 335px !important;
         height: 510px !important;
     }
+    
 }
 /* Large Devices */
 @media screen and (max-width: 1440px){
@@ -328,6 +329,9 @@
         width: 100%;
         margin: 0 0 15px !important;
         text-align: center;
+    }
+    .hero-image-valotech{
+        display: none;
     }
 
     /* Services Section */
