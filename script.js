@@ -174,4 +174,6 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 
+// partners
+
 // Event image gallery
