@@ -45,12 +45,6 @@
 .service-card-wrapper img{
     width: 60px;
 }
-.service-card-wrapper h3{
-    margin: 30px 0 10px;
-    font-size: 1.3rem;
-    text-align: center;
-    user-select: none;
-}
 .service-card-wrapper p{
     text-align: center;
     font-size: .9rem;
@@ -92,3 +86,40 @@
 /* .content ul li{
     list-style-type: none;
 } */
+
+/* Services buttons in index */
+.btn-service {
+    color:#000;
+    text-align: center;
+    font-size: 1.3rem;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 30px 0 10px;
+    user-select: none;
+    font-weight: 700;
+  }
+  
+  .btn-service span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .btn-service span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .btn-service:hover span {
+    padding-right: 25px;
+  }
+  
+  .btn-service:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
