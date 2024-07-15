@@ -72,3 +72,10 @@ h2.hero-heading-valo {
     color: #34364ada;
     user-select: none;
 }
+.valo-description{
+    display: flex;
+    width: 80%;
+}
+.description-right img{
+    height: 90px;
+}
